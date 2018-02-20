@@ -1,0 +1,224 @@
+/* Importing Framework */
+/* Importing Bulma Overwrites FIles */
+/* Importing All Base Utilities */
+/* Importing Layout FIles */
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
+body {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-family: "Montserrat", sans-serif; }
+
+p,
+div,
+h1,
+ul,
+li,
+a {
+  margin: 0; }
+
+/* Importing Layout FIles */
+/*
+  First code write by : Matteo Zanda
+  portfolio: https://gand988.github.io/portfolio/
+
+  Any one can contribuite to this work!!!
+
+  support: https://github.com/DevvitIO
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+/* ------------ */
+/* THEME COLORS PROJECT*/
+/* ------------ */
+.bg-red {
+  background-color: #df6c74; }
+  .bg-red:hover {
+    box-shadow: 10em 10em 0 0 #dfba6c inset; }
+
+.bg-green {
+  background-color: #40a798; }
+  .bg-green:hover {
+    box-shadow: 10em 10em 0 0 #4069a7 inset; }
+
+.bg-blue {
+  background-color: #63adf5; }
+  .bg-blue:hover {
+    box-shadow: 10em 10em 0 0 #8763f5 inset; }
+
+.bg-purple {
+  background-color: #c575e4; }
+  .bg-purple:hover {
+    box-shadow: 10em 10em 0 0 #e475b0 inset; }
+
+/* ------------ */
+/* mobile first */
+/* ------------ */
+body {
+  background: #5399db;
+  background: -webkit-linear-gradient(top right, #5399db, #5153d6);
+  background: -moz-linear-gradient(top right, #5399db, #5153d6);
+  background: linear-gradient(top right, #5399db, #5153d6); }
+
+#hero {
+  margin-bottom: 30px;
+  padding: 10px; }
+
+#hero,
+.proj-wrap {
+  text-align: center; }
+
+.hero-title {
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px; }
+
+.hero-desc {
+  color: #ffffff;
+  display: inline-block; }
+
+ul.nav {
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  list-style: none; }
+
+.nav li {
+  display: inline-block;
+  margin: 0 2px; }
+
+.btn {
+  color: #ffffff;
+  display: inline-block;
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  background-color: #1cad38; }
+
+.btn-discord {
+  padding: 20px 20px;
+  background-color: #7289da; }
+
+/* ------------ */
+/* PROJECT SECTION */
+/* ------------ */
+#projects {
+  padding: 1px 0 20px 0;
+  text-align: center;
+  background-color: #ffffff; }
+
+.inside {
+  max-width: 470px;
+  margin: 0 auto; }
+
+.proj-wrap {
+  display: flex;
+  flex-flow: row wrap; }
+
+.proj-container {
+  color: #ffffff;
+  transition: all .45s;
+  flex: auto;
+  width: 100%; }
+
+.proj-title {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 20px;
+  padding-bottom: 0; }
+
+.proj-descr {
+  font-family: Libre Baskerville,serif;
+  font-size: 18px;
+  font-style: italic;
+  padding: 20px;
+  padding-top: 0; }
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  background-color: #333333; }
+
+footer p {
+  margin: 0;
+  padding: 40px 0; }
+
+footer a:link {
+  color: #1cad38; }
+
+footer a:visited {
+  color: #1cad38;
+  display: inline-block; }
+
+@media (min-width: 600px) {
+  .widget {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; }
+  .nav li {
+    display: inline-block;
+    margin: 0 5px; }
+  /* expand the project tile full-screen */
+  .proj-container {
+    width: 100%; } }
+
+/* if res >= 900 */
+@media (min-width: 900px) {
+  .center-w {
+    max-width: 900px;
+    margin: 0 auto; }
+  .btn {
+    transition: transform 0.25s linear, box-shadow 0.25s linear; }
+  .proj-container {
+    width: 49%;
+    margin: 2.5px;
+    transition: transform 0.25s linear, box-shadow 0.25s linear; }
+  .proj-container:hover,
+  .btn {
+    transform: translate(0, -5px);
+    box-shadow: 5px 5px #333333; }
+  .btn:hover {
+    transform: translate(0, 0px);
+    box-shadow: 1px 1px #333333; } }
+
+html {
+  font-size: 16px; }
+
+body {
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee; }
+
+a {
+  color: #aaaaaa;
+  transition: 0.5s all;
+  text-decoration: none; }
+
+a:hover {
+  color: #fafafa; }
+
+li {
+  list-style: none;
+  list-style-image: none; }
+
+h1 {
+  font-size: 2rem; }

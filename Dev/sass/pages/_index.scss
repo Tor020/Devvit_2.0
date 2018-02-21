@@ -1,22 +1,11 @@
-.testdiv {
+.ex {
   @extend %container;  //placeholder
-
-@include rounded-corner(3px);  //mixin
 }
-.layer {
-  text-align:center;
-  margin:0 auto;
-  @extend %outsideMargin;
-
-@include shadow(1px, 2px, 4px, 1px);
-}
-
-.layerbtab{
-  @extend .layer;
+// Use two different background colors
+// Use accent borders to add color to a bland design
 
 
-  .table{
-    text-align:center;
-    margin:0 auto;
-  }
-}
+@include shadow(0, 4px, 6px, 0)
+
+
+

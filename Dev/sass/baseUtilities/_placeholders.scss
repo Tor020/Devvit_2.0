@@ -17,7 +17,7 @@
   
     transition : all 0.5s;
     &:hover {
-      @include shadow(3px,2px,3px,2px);
+      @include offsetShadow(3px,2px,3px,2px);
     }
   }
 }
@@ -30,5 +30,15 @@
 }
 %zeroMargin {
   margin : 0;
+}
+
+
+%section{
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
 }
 

@@ -12,20 +12,110 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css  ">
   <link rel="stylesheet" href="css/style.css">
 
+
+<!-- Todo
+
+Figure out how to scale svgs
+
+# Landing
+
+Add canvas animations to the background
+instead of an h1 make the title into an SVG and use tympanus to style it 
+
+
+# Purpose
+
+create navbar that appears when you scroll pass the landing section. set the vh to 10 and change the vh of the purpose section to 20 so that there is no gap
+Add SVG animations to the checkboxes in purpose
+create flex container for the checkboxes and equally distribute the area around the checkboxes.
+checkboxes may need to be converted into spans or divs in order to do good svg animations using them
+
+# getINvolved
+
+https://projects.invisionapp.com/freehand/document/9TeYVt8uO refer to that section for details
+
+Add SVG discord bg thing
+
+# Projects
+
+Add the actual projects and use an accent to style the card tops
+Make the cards pull information from git
+
+
+
+# after the above is done, look into setting up a color scheme
+
+Look into making everything look super fancee. But before you do that make srue you get the barebones layout setup and all the base content in.
+ie: you design for the content on the page
+
+ -->
+
 </head>
 
 <body>
 
-        
-        <a href="https://projects.invisionapp.com/freehand/document/9TeYVt8uO">DesignDoc</a>
-      
-      
-        <object type="image/svg+xml" data="img/devit2.svg">Your browser does not support SVGs</object>
+  <div class="gridContainer">
 
 
 
-  <script src='scripts/main.js'></script>
+    <section class="landing">
+
+      <object type="image/svg+xml" data="img/devit2.svg">Your browser does not support SVGs</object>
+
+
+      <h1>Devvit.io</h1>
+      <p>An Open Source Community for Web Development</p>
+
+
+
+    </section>
+
+
+
+
+
+    <div class="purpose">
+
+      <h1>Who is Devvit for?</h1>
+<div ="checkTest">
+  
+        <label>
+          <input type="checkbox"> I am able and willing to behave in a professional manner
+        </label>
+  
+        <label>
+          <input type="checkbox"> I am a Developer
+        </label>
+
+</div>  
+
+      <!-- <a href="https://projects.invisionapp.com/freehand/document/9TeYVt8uO">DesignDoc</a> -->
+
+    </div>
+
+    <div class="getInvolved">
+
+
+
+    </div>
+
+    <div class="discord">
+
+
+    </div>
+
+    <div class="projects">
+
+
+
+    </div>
+
+
+
+
+
+    <script src='scripts/main.js'></script>
 
 </body>
 
-</html> 
+</html>

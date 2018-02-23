@@ -1,4 +1,9 @@
-(function (window, document) {
+// (function (window, document) {
 
 
-})(window, document);
+
+  
+// let path = document.querySelector("svg path");
+// let total_length = path.getTotalLength();
+
+// })(window, document);

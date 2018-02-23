@@ -5,16 +5,6 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif; }
 
-.testdiv {
-  max-width: 50em;
-  margin: 0 auto;
-  background-color: #fff; }
-  .testdiv div, .testdiv p {
-    padding: 4em;
-    transition: all 0.5s; }
-    .testdiv div:hover, .testdiv p:hover {
-      box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.71); }
-
 span,
 input,
 form,
@@ -30,7 +20,12 @@ li,
 a {
   margin: 0; }
 
-/* Importing Layout FIles */
+.landing, .getInvolved, .discord, .projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 html {
   font-size: 16px; }
 
@@ -67,5 +62,51 @@ h4 {
 h5 {
   font-size: 1.2rem; }
 
-.testdiv {
-  border-radius: 3px; }
+/*  Parent Overlay  */
+body {
+  background-color: #d2d5d4; }
+
+.gridContainer {
+  display: grid;
+  grid-template-areas: " landing landing landing                 landing landing landing " " purpose purpose purpose                 purpose purpose purpose " " getInvolved getInvolved getInvolved     discord discord discord " " projects projects projects              projects projects projects ";
+  grid-template-columns: [col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-5] 1fr [col-6] 1fr;
+  grid-template-rows: 100vh 70vh 70vh 70vh; }
+
+.landing {
+  color: #393c3b;
+  background-color: #d2d5d4;
+  grid-area: landing; }
+
+.purpose {
+  color: #393c3b;
+  background-color: #d2d5d4;
+  grid-area: purpose; }
+
+.getInvolved {
+  color: #393c3b;
+  background-color: #c5c9c7;
+  grid-area: getInvolved; }
+
+.discord {
+  color: #393c3b;
+  background-color: #dfe1e1;
+  grid-area: discord; }
+
+.projects {
+  color: #393c3b;
+  background-color: #d2d5d4;
+  grid-area: projects; }
+
+/*   Sections   */
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.purpose {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60%; }
+  .purpose .checkTest {
+    display: flex; }

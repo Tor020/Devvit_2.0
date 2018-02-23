@@ -1,7 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
-// @import url('https://fonts.googleapis.com/css?family=Nunito'); 
-// font-family: 'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Nunito'); 
+body::-webkit-scrollbar-track
+{
+	background-color: transparent;
+}
 
+body::-webkit-scrollbar
+{
+	width: 4px;
+	background-color:#3e3f3a;
+
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color:#c9c8b8;
+}
+
+.brand{
+font-family: 'Nunito', sans-serif;
+}
 html {
   font-size : 16px;
 }

@@ -1,12 +1,4 @@
-// (function (window, document) {
 
-
-
-  
-// let path = document.querySelector("svg path");
-// let total_length = path.getTotalLength();
-
-// })(window, document);
 
 
       discordWidget.init({
@@ -20,3 +12,25 @@
           allUsersDefaultState: false
       });
       discordWidget.render();
+
+
+(function (window, document) {
+
+const cb1 = document.getElementById('cb1');
+const cb2 = document.getElementById('cb2');
+
+const events = document.querySelectorAll('input[type=checkbox]');
+
+// events.addEventListener('change', bothChecked);
+events.forEach(cb => cb.addEventListener('change', bothChecked));
+
+
+function bothChecked(e){
+
+
+
+
+}
+
+  
+})(window, document);

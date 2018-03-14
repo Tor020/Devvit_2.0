@@ -5,11 +5,12 @@
 
   background-image : url(../img/Discord-Logo+Wordmark-Color.svg);
 
-  filter : grayscale(1);
-  grid-template-areas : " . .. ..                                   . widget widget ."
-  " . btn btn                                 . widget widget ."
-  " . .. ..                                   . widget widget .";
-  grid-template-columns : [col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-5] 1fr [col-6] 1fr [col-7] 1fr;
+
+  grid-template-areas :
+". . btn btn btn ."
+". . widget widget widget .  "
+". . . . . .  ";
+  grid-template-columns : [col-1] 1fr [col-2] 1fr [col-3] 1fr [col-4] 1fr [col-5] 1fr [col-6] 1fr;
   grid-template-rows : 1fr 1fr 1fr;
 
 
@@ -34,9 +35,12 @@
   .widget {
     overflow-y : scroll;
 
-    max-height : -webkit-fill-available;
-
+    position:relative;
     grid-area : widget;
+
+    .container{
+      max-height:20rem;
+    }
 
   }
 }

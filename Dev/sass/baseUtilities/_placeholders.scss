@@ -3,7 +3,7 @@
   font-family:'Roboto', sans-serif;
   }
   %useHeadlineFont {
-  font-family:'Montserrat', sans-serif;
+  font-family:'Nunito', sans-serif;
   }
 
 %container {
@@ -40,5 +40,26 @@
   justify-content:center;
   align-items:center;
 
+}
+%projectPlaceHolder{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:25vh;
+  min-width:40%;
+  margin:4% 4%;
+  border-radius:5px;
+  @include offsetShadow(1px,2px,2px,1px);
+
+  h2{
+    margin-bottom:1rem;
+    
+  }
+  p{
+    margin-bottom:1rem;
+    display:block;
+
+  }
 }
 

@@ -34,12 +34,12 @@ body {
 @extend %useBodyFont;
 }
 a {
-  color : darken($base-Accent, 10%);
+  // color : darken($base-Accent, 10%);
 
   transition : 0.5s all;
   text-decoration : none;
   &:hover {
-    color : adjust-hue($base-Accent, 10%);
+    // color : adjust-hue($base-Accent, 10%);
   }
 }
 li {

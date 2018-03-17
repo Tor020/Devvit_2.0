@@ -1,7 +1,9 @@
 
 
 
-
+.projects{
+margin-top:5rem;
+}
 .projectsContainer{
   display:flex;
   flex-wrap:wrap;
@@ -15,8 +17,6 @@
   @extend %projectPlaceHolder;
 
   background:linear-gradient(15deg, rgb(100, 225, 181), rgb(156, 216, 220));
- 
-
  
 }
 

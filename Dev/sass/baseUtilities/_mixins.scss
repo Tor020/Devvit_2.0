@@ -16,6 +16,10 @@
 @mixin offsetShadow($xval, $yval, $blur, $spread){
   box-shadow: $xval $yval $blur $spread hsla(0, 0%, 0%, 0.2);
 }
+@mixin offsetShadow($xval, $yval, $blur, $spread){
+  box-shadow: $xval $yval $blur $spread hsla(0, 0%, 0%, 0.2);
+}
+
 
 //use for wells and form inputs
 @mixin insetShadow($xval, $yval, $blur, $spread){

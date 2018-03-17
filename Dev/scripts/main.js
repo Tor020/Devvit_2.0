@@ -4,9 +4,9 @@
       discordWidget.init({
           serverId: '364473157312315394',
           title: 'Devvit.io',
-          join: true,
+          join: false,
           alphabetical: true,
-          theme: 'dark',
+          theme: 'light',
           hideChannels: true,
           showAllUsers: true,
           allUsersDefaultState: false
@@ -26,11 +26,18 @@ events.forEach(cb => cb.addEventListener('change', bothChecked));
 
 
 function bothChecked(e){
-
-
-
-
 }
+
+
+
 
   
 })(window, document);
+
+
+
+
+
+
+
+
